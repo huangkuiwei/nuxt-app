@@ -18,5 +18,6 @@ module.exports = {
   // add your custom rules here
   rules: {
     'vue/name-property-casing': 'off',
+    'no-console': 'off',
   },
 }

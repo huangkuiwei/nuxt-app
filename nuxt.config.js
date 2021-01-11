@@ -1,3 +1,5 @@
+import extendRoutes from './src/router'
+
 export default {
   head: {
     title: 'nuxt-app',
@@ -16,11 +18,13 @@ export default {
 
   plugins: ['@/plugins/antd-ui'],
 
+  router: {
+    extendRoutes,
+  },
+
   components: true,
 
-  buildModules: [
-    '@nuxtjs/eslint-module',
-  ],
+  buildModules: ['@nuxtjs/eslint-module'],
 
   modules: ['@nuxtjs/axios'],
 

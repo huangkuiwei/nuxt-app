@@ -1,5 +1,7 @@
 <template>
-  <div class="index">nuxt-app</div>
+  <div class="index">
+    <nuxt-link to="/about">关于</nuxt-link>
+  </div>
 </template>
 
 <script>
