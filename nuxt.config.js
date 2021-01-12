@@ -14,7 +14,7 @@ export default {
   // 设置源代码目录
   srcDir: 'src/',
 
-  css: ['ant-design-vue/dist/antd.css'],
+  css: ['ant-design-vue/dist/antd.css', 'assets/global.less'],
 
   plugins: ['@/plugins/antd-ui'],
 
