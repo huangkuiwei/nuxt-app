@@ -20,6 +20,7 @@ export default {
 
   router: {
     extendRoutes,
+    middleware: 'auth',
   },
 
   components: true,
