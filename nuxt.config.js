@@ -16,7 +16,12 @@ export default {
 
   css: ['ant-design-vue/dist/antd.css', 'assets/css/global.less'],
 
-  plugins: ['@/plugins/antd-ui'],
+  plugins: [
+    '@/plugins/antd-ui',
+    '@/plugins/vue-inject',
+    '@/plugins/ctx-inject',
+    '@/plugins/all-inject',
+  ],
 
   router: {
     extendRoutes,
