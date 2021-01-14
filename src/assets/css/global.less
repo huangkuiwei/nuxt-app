@@ -1,3 +1,5 @@
+@import "@/assets/css/reset.less";
+
 // Nuxt.js 默认使用的过渡效果名称为 page
 .page-enter, .page-leave-to {
   opacity: 0;
@@ -5,4 +7,9 @@
 
 .page-enter-active, .page-leave-active {
   transition: all .5s;
+}
+
+// url 路径 ~assets
+.bg {
+  background: url("~assets/images/01.png");
 }
