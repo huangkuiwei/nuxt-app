@@ -22,6 +22,7 @@ export default {
     '@/plugins/ctx-inject',
     '@/plugins/all-inject',
     '@/plugins/axios',
+    '@/plugins/router',
   ],
 
   router: {
