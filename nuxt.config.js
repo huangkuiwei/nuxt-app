@@ -21,6 +21,7 @@ export default {
     '@/plugins/vue-inject',
     '@/plugins/ctx-inject',
     '@/plugins/all-inject',
+    '@/plugins/axios',
   ],
 
   router: {
